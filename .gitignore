@@ -1,5 +1,3 @@
-
-### C++ ###
 # Prerequisites
 *.d
 
@@ -13,10 +11,18 @@
 *.gch
 *.pch
 
+# Linker files
+*.ilk
+
+# Debugger Files
+*.pdb
+
 # Compiled Dynamic libraries
 *.so
 *.dylib
 *.dll
+*.so.*
+
 
 # Fortran module files
 *.mod
@@ -33,42 +39,31 @@
 *.out
 *.app
 
-### KiCad ###
-# For PCBs designed using KiCad: https://www.kicad.org/
-# Format documentation: https://kicad.org/help/file-formats/
+# Build directories
+build/
+Build/
+build-*/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+install_manifest.txt
+compile_commands.json
 
 # Temporary files
-*.000
-*.bak
-*.bck
-*.kicad_pcb-bak
-*.kicad_sch-bak
-*-backups
-*.kicad_prl
-*.sch-bak
-*~
-_autosave-*
 *.tmp
-*-save.pro
-*-save.kicad_pcb
-fp-info-cache
+*.log
+*.bak
+*.swp
 
-# Netlist files (exported from Eeschema)
-*.net
+# vcpkg
+vcpkg_installed/
 
-# Autorouter files (exported from Pcbnew)
-*.dsn
-*.ses
+# debug information files
+*.dwo
 
-# Exported BOM files
-*.xml
-*.csv
-
-### KiCad Patch ###
-rescue-backup/
-
-*.tsv
-bom/
-
-# Gerber export output
-out/
+# test output & cache
+Testing/
+.cache/
