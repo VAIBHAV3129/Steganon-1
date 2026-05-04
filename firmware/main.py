@@ -70,7 +70,7 @@ class RingBuffer:
 
 
 # ============================================================
-# 1) CONFIGURATION (Modular / Pin-agnostic)
+#                             CONFIGURATION 
 # ============================================================
 
 class Config:
