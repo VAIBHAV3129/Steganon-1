@@ -503,7 +503,13 @@ def main():
 
         pipeline.transmit(heartbeat_json)
 
-        
+        # Optional: if LOOPBACK_RX enabled, show receive/decode path
+        rx_info = pipeline.poll_rx_and_decode()
+        if rx_info:
+            print("[RX] Decoded:")
+            print(json.dumps(rx_info, indent=2))
+
+        time.sleep(interval_s)
 
 if __name__ == "__main__":
     main()
