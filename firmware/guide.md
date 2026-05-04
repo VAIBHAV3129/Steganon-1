@@ -7,3 +7,5 @@
 - Encryption: RP2350 wraps the message and GPS data in an encrypted packet.
 
 - Output: The RFM95 broadcasts the packet over LoRa frequencies.
+
+The Entire code is written via micropython
