@@ -10,7 +10,7 @@
 | **Storage** | DFRobot MicroSD Card Module | 2 | SPI interface for local off-grid message logging |
 | **Antenna** | 5dBi LoRa Magnetic Antenna | 2 | High-gain omnidirectional antenna |
 | **RF Cable** | SMA to U.FL Cable (20cm) | 2 | Interfaces module U.FL to chassis SMA |
-| **Power** | 18650 Li-Ion Battery | 2 | 3.7V 2900mAh power source |
+| **Power** | 18650 Li-Ion Battery | 4 | 3.7V 2900mAh power source |
 | **Power** | TP4056 Charger Module | 2 | USB-C charging with over-discharge protection |
 | **Power** | MT3608 Step-up Converter | 2 | Boosts battery to 5V for GPS/OLED rails |
 | **Power** | AMS1117 3.3V Power Module | 2 | LDO regulation for RP2350 and LoRa logic |
