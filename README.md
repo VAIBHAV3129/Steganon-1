@@ -39,6 +39,12 @@ Steganon is an advanced, dual-node P2P encrypted communication terminal designed
 
 
 
+# Abstract Project Visualisation
+
+Of only some of the basic components
+
+
+<img width="734" height="403" alt="Screen Shot 2026-05-06 at 18 40 53 PM" src="https://github.com/user-attachments/assets/a1514a45-26ac-4dce-88f7-3cb5d99c7a83" />
 
 
 -------------------------------------------------------------
@@ -51,3 +57,4 @@ Flowchart - Excalidraw
 
 CAD - Onshape
 
+Project Visualization Image - AI Assisted
