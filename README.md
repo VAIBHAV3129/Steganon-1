@@ -18,6 +18,9 @@ Steganon is a really advanced, dual-node P2P encrypted communication terminal de
 <img width="882" height="625" alt="Screen Shot 2026-05-05 at 22 57 30 PM" src="https://github.com/user-attachments/assets/3b485b76-99f6-41d8-9033-6a909fed0f31" />
 
 
+Pleaase note that the Kicad schematic contains only a few basic and vital components, since I was unable to find the rest
+
+
 # BOM
 
 
